@@ -29,6 +29,7 @@ public class LoginTest {
 		driver.findElement(By.id("username")).sendKeys(username);
 		driver.findElement(By.id("password")).sendKeys(password);
 		driver.findElement(By.id("Login")).click();
+		System.out.println("login successful");
 	}
 	@AfterMethod
 	public void aftermethod() {
